@@ -62,7 +62,7 @@ pin_code = "642122"
 
 cowin = CoWinAPI()
 #pass date in method to get specific date or today's date is taken
-available_centers = cowin.get_availability_by_pincode(pin_code)
+available_centers = cowin.get_availability_by_pincode_week(pin_code)
 print(available_centers)
 ```
 
@@ -73,7 +73,7 @@ pin_code = "642122"
 
 cowin = CoWinAPI()
 #pass date in method to get specific date or today's date is taken
-available_centers = cowin.get_availability_by_pincode(pin_code)
+available_centers = cowin.get_availability_by_pincode_week(pin_code)
 print(available_centers)
 ```
 
